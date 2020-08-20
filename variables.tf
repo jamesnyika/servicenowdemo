@@ -7,3 +7,7 @@ variable "region" {
   description = "My provisioning region"
   default     = "us-east-1"
 }
+
+variable "sshkey" {
+  description = "My login ssh key"
+}
