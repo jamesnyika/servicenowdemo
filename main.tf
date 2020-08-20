@@ -138,7 +138,7 @@
       key_name = "d_keypair"
       
       ## reference your public key : NEVER UPLOAD PRIVATE KEY 
-      public_key = file("~/.ssh/id_rsa.pub")
+      public_key = var.sshkey
    }
 
    # EC2 - requirement
